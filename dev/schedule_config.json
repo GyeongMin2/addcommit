@@ -1,0 +1,27 @@
+{
+  "weekday": 0.72,
+  "weekend": 0.18,
+  "holiday": 0.22,
+  "major_holiday": 0.03,
+  "weekend_enabled": true,
+  "holiday_enabled": true,
+  "max_weekday_gap": 4,
+  "dated_holidays": [
+    {"start": "2024-02-09", "end": "2024-02-11", "name": "설날", "day_type": "명절"},
+    {"start": "2024-09-16", "end": "2024-09-18", "name": "추석", "day_type": "명절"},
+    {"date": "2024-05-15", "name": "부처님오신날", "day_type": "공휴일"},
+    {"start": "2025-01-28", "end": "2025-01-30", "name": "설날", "day_type": "명절"},
+    {"start": "2025-10-05", "end": "2025-10-07", "name": "추석", "day_type": "명절"},
+    {"date": "2025-05-05", "name": "부처님오신날", "day_type": "공휴일"},
+    {"start": "2026-02-16", "end": "2026-02-18", "name": "설날", "day_type": "명절"},
+    {"start": "2026-09-24", "end": "2026-09-26", "name": "추석", "day_type": "명절"},
+    {"date": "2026-05-24", "name": "부처님오신날", "day_type": "공휴일"}
+  ],
+  "commit": {
+    "window_start": "18:00",
+    "window_end": "23:00",
+    "timezone": "+09:00",
+    "dummy_file": "activity.log",
+    "message": "chore: activity {date} {time}"
+  }
+}
